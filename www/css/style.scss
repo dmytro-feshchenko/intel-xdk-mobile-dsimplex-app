@@ -1,0 +1,121 @@
+.view {
+    background: #00796B !important;
+}
+div {
+    color: #212121 !important;
+}
+footer a {
+    color: white !important;
+}
+.pages {
+    background: white !important;
+}
+.d-simplex-result-container {
+    padding: {
+        top: 5px;
+        bottom: 5px;
+    }
+}
+.result-block-label {
+    text-align: center !important;
+    color: #00796B !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.limit-label {
+    text-align: center !important;
+    color: #00796B !important;
+    font-weight: bold;
+    font-size: 16px;
+    border-top: 1px solid #00796B;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.limit-result {
+    text-align: center !important;
+    color: #00796B !important;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+label {
+    color: black !important;
+}
+.form-label label {
+    font-weight: bold !important;
+}
+input {
+    color: black !important;
+}
+.panel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn {
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 15px 10px;
+    &.btn-warning {
+        background: #00796B;
+        color: white;
+        font-weight: bold;
+    }
+}
+.form-label,
+.form-label label {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select
+{
+    border-radius: 0 !important;
+    border: 1px solid #dadada !important;
+    background: white !important;
+
+    &.error-field {
+        border: 1px solid red !important;
+    }
+
+    &:hover,
+    &:focus {
+        background: #00796B !important;
+        border: 1px solid #212121 !important;
+        outline: 1px solid #212121 !important;
+        color: white !important;
+    }
+}
+select {
+    text-align: center !important;
+    text-indent: 45%;
+}
+table {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #212121;
+    border-collapse: collapse;
+
+    tr {
+
+    }
+    th, td {
+        text-align: center;
+        border: 1px solid #212121;
+    }
+    th {
+        background: #00796B !important;
+        font-weight: bold;
+    }
+    td {
+        &:first-child {
+            background: #00796B !important;
+            font-weight: bold;
+        }
+    }
+}
